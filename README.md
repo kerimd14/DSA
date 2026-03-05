@@ -11,7 +11,8 @@ Data Structures:
 - Queue made using RingBuffer
 - Heaps
 - Trees
-Algorithms
+
+Algorithms:
 -  Some sorting algs
 -  Some search algs
 -  furhter
