@@ -8,10 +8,14 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(dsa_app
     main.cpp
-    dynvec/dynvector.cpp
-    dynvec/dynvector_tests.cpp
+    datastruct/dynarray/dynarray.cpp
+    datastruct/dynarray/dynarray_tests.cpp
+    datastruct/stack/stack.cpp
+    datastruct/stack/stack_tests.cpp
 )
 
 target_include_directories(dsa_app PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/dynvec
+    ${CMAKE_CURRENT_SOURCE_DIR}/datastruct
+    ${CMAKE_CURRENT_SOURCE_DIR}/datastruct/dynarray
+    ${CMAKE_CURRENT_SOURCE_DIR}/datastruct/stack
 )

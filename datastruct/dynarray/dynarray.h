@@ -1,5 +1,8 @@
-
-class Dynvector {
+#pragma once
+/*
+Array List dynmaic array implementation
+*/
+class Dynarray {
     private:
         int* data; // pointer to the dynamic array
         int size; // size of the vector
@@ -10,9 +13,9 @@ class Dynvector {
     public:
 
         // default constructor
-        Dynvector();
+        Dynarray();
         // default destructor
-        ~Dynvector();
+        ~Dynarray();
 
 
         int getSize() const;
@@ -31,4 +34,3 @@ class Dynvector {
         const int& operator[](int index) const;
         
 };
-

@@ -1,9 +1,9 @@
 #include <iostream>
 #include <stdexcept>
-#include "dynvector.h"
+#include "dynarray.h"
 
-int run_dynvector_tests() {
-    Dynvector v;
+int run_dynarray_tests() {
+    Dynarray v;
 
     std::cout << "Initially: size=" << v.getSize()
               << " cap=" << v.getCapacity()
